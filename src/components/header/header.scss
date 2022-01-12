@@ -1,0 +1,26 @@
+@import '../../styles/variables.scss';
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+
+    padding: 46px 0;
+
+    &__list {
+        display: flex;
+
+        list-style-type: none;
+    }
+
+    &__item {
+        margin-right: 60px;
+    }
+
+    &__link {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+        text-decoration: none;
+        color: $white;
+    }
+}
