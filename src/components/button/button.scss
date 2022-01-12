@@ -1,0 +1,42 @@
+@import "../../styles/variables.scss";
+
+.button {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    padding: 15px 26px;
+
+    background: $purple-light-gradient;
+    border: none;
+    clip-path: polygon(4% 0, 97% 0, 100% 50%, 97% 100%, 3% 100%, 0% 50%);
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: $white;
+
+    cursor: pointer;
+}
+
+.button::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 13px;
+    height: 57px;
+    right: 0;
+    background-image: url(../../resources/img/borderRight.svg);
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 13px;
+    height: 57px;
+    left: 0;
+    background-image: url(../../resources/img/borderLeft.svg);
+}
