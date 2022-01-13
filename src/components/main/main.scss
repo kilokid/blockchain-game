@@ -1,7 +1,12 @@
 .main {
+    display: flex;
+    justify-content: end;
+    gap: 190px;
+
+    padding: 20px 0;
+
     background-image: url(../../resources/img/gameBg.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
     background-position: center;
-    height: 740px;
 }
