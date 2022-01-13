@@ -1,0 +1,47 @@
+@import "../../styles/variables.scss";
+
+.button {
+
+    &--gray {
+        position: relative;
+
+        display: flex;
+        align-items: center;
+
+        padding: 8px 35px;
+
+        background: $gray-gradient;
+        border: none;
+        clip-path: polygon(5% 0, 95% 0, 100% 50%, 94% 100%, 6% 100%, 0% 50%);
+
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: $white;
+
+        cursor: pointer;
+
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 13px;
+            height: 45px;
+            right: 2px;
+            background-image: url(../../resources/img/grayBorderRight.svg);
+            background-repeat: no-repeat;
+        }
+        
+        &::before {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 13px;
+            height: 45px;
+            left: 0;
+            background-image: url(../../resources/img/grayBorderLeft.svg);
+            background-repeat: no-repeat;
+        }
+    }
+}
