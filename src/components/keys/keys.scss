@@ -1,0 +1,43 @@
+.keys {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 140px;
+
+    width: 740px;
+    height: 60px;
+
+    &--1 {
+        position: absolute;
+
+        z-index: 4;
+    }
+
+    &--2 {
+        position: absolute;
+
+        margin-left: 100px;
+
+        z-index: 3;
+    }
+
+    &--3 {
+        position: absolute;
+
+        margin-left: 200px;
+
+        z-index: 2;
+    }
+
+    &--4 {
+        position: absolute;
+
+        margin-left: 300px;
+
+        z-index: 1;
+    }
+}
