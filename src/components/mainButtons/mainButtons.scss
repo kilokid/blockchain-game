@@ -1,0 +1,54 @@
+@import "../../styles/variables.scss";
+
+.main-buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &--purple {
+        padding: 16px 51px;
+        margin-bottom: 17px;
+
+        background: $purple-light-gradient;
+        
+        overflow: visible;
+
+        &::before {
+            background-image: none;
+        }
+
+        &::after {
+            background-image: none;
+        }
+    }
+
+    &__border {
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            background-image: url(../../resources/img/mainBorderLeft.svg);
+            background-repeat: no-repeat;
+            width: 84px;
+            height: 61px;
+            left: -71px;
+        }
+    
+        &::after {
+            content: "";
+            position: absolute;
+            background-image: url(../../resources/img/mainBorderRight.svg);
+            background-repeat: no-repeat;
+            width: 84px;
+            top: 0;
+            right: -71px;
+            height: 61px;
+        }
+    }
+
+    &__new-level {
+        display: flex;
+        gap: 44px;
+    }
+}
