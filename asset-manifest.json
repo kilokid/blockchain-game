@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/blockchain-game/static/css/main.aa3552b7.css",
+    "main.js": "/blockchain-game/static/js/main.91405bfe.js",
+    "static/media/cell.png": "/blockchain-game/static/media/cell.a8006b7b16ef7e41e4bd.png",
+    "static/media/gameBg.png": "/blockchain-game/static/media/gameBg.f027e5a10c33c5776a81.png",
+    "static/media/greenKey.svg": "/blockchain-game/static/media/greenKey.459f74370964483a6422636c70c6ba38.svg",
+    "static/media/grayKey.svg": "/blockchain-game/static/media/grayKey.59eb0c615a88cd7a7afe665af4229216.svg",
+    "static/media/instagram.svg": "/blockchain-game/static/media/instagram.6f5f5e9f5e5990007283ad298fabebfe.svg",
+    "static/media/discord.svg": "/blockchain-game/static/media/discord.ade53563d489d55f88fe7ab5a141d429.svg",
+    "static/media/twitter.svg": "/blockchain-game/static/media/twitter.0fc52653e6ad96538b928ea5e0f0c694.svg",
+    "static/media/mainBorderRight.svg": "/blockchain-game/static/media/mainBorderRight.a3b08f8294f436caf632.svg",
+    "static/media/mainBorderLeft.svg": "/blockchain-game/static/media/mainBorderLeft.ceab1a8b8d5cd6363733.svg",
+    "index.html": "/blockchain-game/index.html",
+    "static/media/borderRight.svg": "/blockchain-game/static/media/borderRight.f3bbf83705354c56c0d2.svg",
+    "static/media/telegram.svg": "/blockchain-game/static/media/telegram.69b9ea4b7fd4a03191d0067f07742b47.svg",
+    "static/media/borderLeft.svg": "/blockchain-game/static/media/borderLeft.1c727e52b249715eb814.svg",
+    "static/media/grayBorderRight.svg": "/blockchain-game/static/media/grayBorderRight.769cd05a37f57fda0923.svg",
+    "static/media/grayBorderLeft.svg": "/blockchain-game/static/media/grayBorderLeft.0d0ce561ae326356adae.svg",
+    "main.aa3552b7.css.map": "/blockchain-game/static/css/main.aa3552b7.css.map",
+    "main.91405bfe.js.map": "/blockchain-game/static/js/main.91405bfe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa3552b7.css",
+    "static/js/main.91405bfe.js"
+  ]
+}
