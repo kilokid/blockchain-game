@@ -1,3 +1,27 @@
-.cell {
-    margin-top: -60px;
+.cellKey {
+    position: relative;
+
+    &__cell {
+        margin-top: -60px;
+    }
+
+    &__key {
+        position: absolute;
+        top: 60px;
+        left: 44%;
+        right: 0;
+        bottom: 0;
+
+        animation: key 1.2s alternate ease-in-out infinite;
+    }
+
+    @keyframes key {
+        0% {
+            transform: translate(0, 0);
+        }
+
+        100% {
+            transform: translate(0, 1em);
+        }
+    }
 }
